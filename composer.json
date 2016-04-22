@@ -1,0 +1,15 @@
+{
+    "name": "codeburrow/nbg-fintech-hackathon-web",
+    "description": "Fintech hackathon: Basic data modeling, API, fronted API consumption, and tests.",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Rizart Dokollari",
+            "email": "r.dokollari@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "codeception/codeception": "^2.1"
+    }
+}

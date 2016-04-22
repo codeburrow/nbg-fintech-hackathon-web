@@ -1,0 +1,8 @@
+class_name: FrontendTester
+modules:
+    enabled:
+        - PhpBrowser:
+            url: http://localhost/myapp
+        - \Helper\Acceptance
+        - Asserts
+        - \Helper\Unit
