@@ -3,6 +3,9 @@
  * @author Rizart Dokollar <r.dokollari@gmail.com
  * @since 4/22/16
  */
+
+require __DIR__.'/registerIoC.php';
+
 try {
     $dotenv = new Dotenv\Dotenv(__DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR);
     $dotenv->load();
@@ -33,3 +36,4 @@ if (php_sapi_name() !== 'cli') {
         }
     }
 }
+

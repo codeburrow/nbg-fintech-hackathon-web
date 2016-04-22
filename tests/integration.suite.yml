@@ -1,4 +1,10 @@
 class_name: IntegrationTester
 modules:
     enabled:
+    enabled:
+        - PhpBrowser:
+            url: 'https://fintech.app/'
+            browser: phantomjs
+        - Db
         - \Helper\Integration
+        - Asserts

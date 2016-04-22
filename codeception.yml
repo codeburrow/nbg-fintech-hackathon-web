@@ -15,7 +15,7 @@ extensions:
 modules:
     config:
         Db:
-            dsn: ''
-            user: ''
-            password: ''
+            dsn: 'mysql:host=localhost;dbname=fintech_test'
+            user: 'homestead'
+            password: 'secret'
             dump: tests/_data/dump.sql
