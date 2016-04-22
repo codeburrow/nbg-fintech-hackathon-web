@@ -2,7 +2,7 @@ class_name: FrontendTester
 modules:
     enabled:
         - PhpBrowser:
-            url: http://localhost/myapp
+            url: https://fintech.app
         - \Helper\Acceptance
         - Asserts
         - \Helper\Unit
